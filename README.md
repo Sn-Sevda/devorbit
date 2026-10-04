@@ -1,16 +1,37 @@
-# React + Vite
+# 🚀 DevOrbit — Geliştirici Çalışma İstasyonu & Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DevOrbit; geliştiricilerin GitHub aktivitelerini takip edebildiği, günlük sprint görevlerini yönetebildiği ve derin odaklanma (Pomodoro) seansları yapabildiği modern bir React panelidir.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Özellikler
 
-## React Compiler
+- **🌐 Canlı GitHub Entegrasyonu:** GitHub REST API kullanılarak kullanıcı profili, repo sayısı, takipçi sayıları ve son güncellenen projeler anlık olarak listelenir.
+- **📝 Görev Panosu (CRUD):** 
+  - Görev oluşturma (Create), listeleme (Read), durum güncelleme (Update) ve silme (Delete).
+  - Öncelik belirleme (Düşük, Orta, Yüksek).
+  - **Kalıcı Hafıza:** Sayfa yenilendiğinde verilerin kaybolmaması için `LocalStorage` entegrasyonu.
+- **⏱️ Derin Odak Modu (Pomodoro):** 25 dakikalık çalışma sprintlerini yöneten zamanlayıcı.
+- **📖 Geliştirici Not Defteri (DevLog):** Gün içinde çözülen bug'ları ve alınan notları tarayıcı hafızasında saklayan hızlı kayıt alanı.
+- **🎨 Modern Arayüz:** Tailwind CSS ile tasarlanmış, duyarlı (responsive) ve koyu tema (dark mode) odaklı kullanıcı deneyimi.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Kütüphane:** [React](https://react.dev/)
+- **Derleme Aracı:** [Vite](https://vitejs.dev/)
+- **Stil & Tasarım:** [Tailwind CSS](https://tailwindcss.com/)
+- **İkon Paketi:** [Lucide React](https://lucide.dev/)
+- **Durum & Yaşam Döngüsü:** `useState`, `useEffect` Hook'ları
+- **Veri Kalıcılığı:** Tarayıcı `LocalStorage` API
+
+---
+
+## 💻 Kurulum ve Çalıştırma
+
+Projeyi yerel bilgisayarınızda çalıştırmak için:
+
+1. Depoyu klonlayın:
+   ```bash
+   git clone [https://github.com/Sn_Sevda/devorbit.git](https://github.com/Sn_Sevda/devorbit.git)
